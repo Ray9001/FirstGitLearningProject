@@ -27,4 +27,15 @@ public class MainActivity extends AppCompatActivity {
     public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
         super.onSaveInstanceState(outState, outPersistentState);
     }
+
+
+    @Override
+    public void finishActivity(int requestCode) {
+        super.finishActivity(requestCode);
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+    }
 }
